@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.npz
+*.pt
+*.pth
+
+# Generated data (don't commit large datasets)
+dataset/
+output/
+*.jpg
+*.png
+!tests/fixtures/*.jpg
